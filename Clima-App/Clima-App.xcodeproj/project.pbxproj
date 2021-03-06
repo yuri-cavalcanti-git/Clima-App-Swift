@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA42198B25F3E08F005EF993 /* levi-saunders-71726.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */; };
 		DA988B1625F051300093FFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1525F051300093FFE1 /* AppDelegate.swift */; };
 		DA988B1825F051300093FFE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1725F051300093FFE1 /* SceneDelegate.swift */; };
 		DA988B1A25F051300093FFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1925F051300093FFE1 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "levi-saunders-71726.jpg"; sourceTree = "<group>"; };
 		DA988B1225F051300093FFE1 /* Clima-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clima-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA988B1525F051300093FFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA988B1725F051300093FFE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +78,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA42198625F3E026005EF993 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA42198725F3E036005EF993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA988B1B25F051300093FFE1 /* Main.storyboard */,
+				DA988B1925F051300093FFE1 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA42198825F3E03D005EF993 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA42198925F3E049005EF993 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		DA988B0925F051300093FFE1 = {
 			isa = PBXGroup;
 			children = (
 				DA988B1425F051300093FFE1 /* Clima-App */,
+				DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */,
 				DA988B2B25F051330093FFE1 /* Clima-AppTests */,
 				DA988B3625F051330093FFE1 /* Clima-AppUITests */,
 				DA988B1325F051300093FFE1 /* Products */,
@@ -101,8 +134,10 @@
 			children = (
 				DA988B1525F051300093FFE1 /* AppDelegate.swift */,
 				DA988B1725F051300093FFE1 /* SceneDelegate.swift */,
-				DA988B1925F051300093FFE1 /* ViewController.swift */,
-				DA988B1B25F051300093FFE1 /* Main.storyboard */,
+				DA42198925F3E049005EF993 /* Services */,
+				DA42198625F3E026005EF993 /* Model */,
+				DA42198825F3E03D005EF993 /* ViewModel */,
+				DA42198725F3E036005EF993 /* View */,
 				DA988B1E25F051320093FFE1 /* Assets.xcassets */,
 				DA988B2025F051320093FFE1 /* LaunchScreen.storyboard */,
 				DA988B2325F051320093FFE1 /* Info.plist */,
@@ -231,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA42198B25F3E08F005EF993 /* levi-saunders-71726.jpg in Resources */,
 				DA988B2225F051320093FFE1 /* LaunchScreen.storyboard in Resources */,
 				DA988B1F25F051320093FFE1 /* Assets.xcassets in Resources */,
 				DA988B1D25F051300093FFE1 /* Main.storyboard in Resources */,
