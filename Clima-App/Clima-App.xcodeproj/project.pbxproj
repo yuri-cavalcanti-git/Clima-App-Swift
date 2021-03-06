@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA42198B25F3E08F005EF993 /* levi-saunders-71726.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */; };
+		DA50355825F3F24400CB2B1C /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA50355725F3F24400CB2B1C /* rain.jpg */; };
 		DA988B1625F051300093FFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1525F051300093FFE1 /* AppDelegate.swift */; };
 		DA988B1825F051300093FFE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1725F051300093FFE1 /* SceneDelegate.swift */; };
 		DA988B1A25F051300093FFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1925F051300093FFE1 /* ViewController.swift */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "levi-saunders-71726.jpg"; sourceTree = "<group>"; };
+		DA50355725F3F24400CB2B1C /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
 		DA988B1225F051300093FFE1 /* Clima-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clima-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA988B1525F051300093FFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA988B1725F051300093FFE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,11 +108,19 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		DA50355C25F3F27600CB2B1C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA50355725F3F24400CB2B1C /* rain.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		DA988B0925F051300093FFE1 = {
 			isa = PBXGroup;
 			children = (
+				DA50355C25F3F27600CB2B1C /* Images */,
 				DA988B1425F051300093FFE1 /* Clima-App */,
-				DA42198A25F3E08F005EF993 /* levi-saunders-71726.jpg */,
 				DA988B2B25F051330093FFE1 /* Clima-AppTests */,
 				DA988B3625F051330093FFE1 /* Clima-AppUITests */,
 				DA988B1325F051300093FFE1 /* Products */,
@@ -266,7 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA42198B25F3E08F005EF993 /* levi-saunders-71726.jpg in Resources */,
+				DA50355825F3F24400CB2B1C /* rain.jpg in Resources */,
 				DA988B2225F051320093FFE1 /* LaunchScreen.storyboard in Resources */,
 				DA988B1F25F051320093FFE1 /* Assets.xcassets in Resources */,
 				DA988B1D25F051300093FFE1 /* Main.storyboard in Resources */,
