@@ -110,6 +110,12 @@
                             <constraint firstItem="K6o-zj-W1T" firstAttribute="top" secondItem="GYg-4n-0oZ" secondAttribute="bottom" constant="18" id="zU4-v5-TWR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="3Pa-Q9-GER" id="jhA-oj-i2D"/>
+                        <outlet property="conditionImageView" destination="GYg-4n-0oZ" id="mTt-Xs-iS6"/>
+                        <outlet property="searchTextField" destination="GTl-op-mx3" id="dhE-sT-f5Q"/>
+                        <outlet property="temperatureLabel" destination="K6o-zj-W1T" id="dmM-fO-B1Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
