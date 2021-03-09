@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain.jpg" highlightedImage="rain.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lPd-0N-lzS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashImage.jpeg" highlightedImage="splashImage.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lPd-0N-lzS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
@@ -40,7 +40,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="rain.jpg" width="230.39999389648438" height="153.60000610351562"/>
+        <image name="splashImage.jpeg" width="1280" height="720"/>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

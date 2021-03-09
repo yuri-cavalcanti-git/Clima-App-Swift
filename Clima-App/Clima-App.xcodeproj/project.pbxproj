@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA50355825F3F24400CB2B1C /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA50355725F3F24400CB2B1C /* rain.jpg */; };
+		DA4B549125F6F51000C667CE /* splashImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DA4B549025F6F51000C667CE /* splashImage.jpeg */; };
 		DA988B1625F051300093FFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1525F051300093FFE1 /* AppDelegate.swift */; };
 		DA988B1825F051300093FFE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1725F051300093FFE1 /* SceneDelegate.swift */; };
 		DA988B1A25F051300093FFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA988B1925F051300093FFE1 /* ViewController.swift */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA50355725F3F24400CB2B1C /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		DA4B549025F6F51000C667CE /* splashImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashImage.jpeg; sourceTree = "<group>"; };
 		DA988B1225F051300093FFE1 /* Clima-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clima-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA988B1525F051300093FFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA988B1725F051300093FFE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		DA50355C25F3F27600CB2B1C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DA50355725F3F24400CB2B1C /* rain.jpg */,
+				DA4B549025F6F51000C667CE /* splashImage.jpeg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -274,10 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA50355825F3F24400CB2B1C /* rain.jpg in Resources */,
 				DA988B2225F051320093FFE1 /* LaunchScreen.storyboard in Resources */,
 				DA988B1F25F051320093FFE1 /* Assets.xcassets in Resources */,
 				DA988B1D25F051300093FFE1 /* Main.storyboard in Resources */,
+				DA4B549125F6F51000C667CE /* splashImage.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
